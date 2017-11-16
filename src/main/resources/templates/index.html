@@ -13,19 +13,17 @@
 <main>
     <nav class="grey">
         <div class="container-fluid">
-            <div class="row">
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">我的网盘</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li>
-                            <div class="search-btn input-group">
-                                <input type="text" placeholder="search for..." >
-                                <span class="input-group-addon"><i class="material-icons">search</i></span>
-                            </div>
-                        </li>
-                        <li><a href="#">注销</a></li>
-                    </ul>
-                </div>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">我的网盘</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <div class="input-field">
+                            <span class="prefix"><i class="material-icons">search</i></span>
+                            <input type="text" placeholder="search for..." >
+                        </div>
+                    </li>
+                    <li><a href="#">注销</a></li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -39,11 +37,58 @@
             </div>
         </div>
     </div>
+    <div id="file">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="details">
+                    <table class="highlight">
+                        <thead>
+                        <tr>
+                            <th>
+                                <input type="checkbox" id="file-name">
+                                <label for="file-name">文件名</label>
+                            </th>
+                            <th>大小</th>
+                            <th>修改日期</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="file1">
+                                <label for="file1">蒼井そら.av</label>
+                            </td>
+                            <td>1G</td>
+                            <td>2017-1-1</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="file2">
+                                <label for="file2">蒼井そら.av</label>
+                            </td>
+                            <td>1G</td>
+                            <td>2017-1-1</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="file3">
+                                <label for="file3">蒼井そら.av</label>
+                            </td>
+                            <td>1G</td>
+                            <td>2017-1-1</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <div id="sidebar">
     <ul class="side-nav fixed">
         <li>
             <div class="text-center">
+                <!--<i class="material-icons medium">thumb_up</i>-->
                 <a><img class="logo" src="../static/img/kenan.jpg"></a>
             </div>
         </li>

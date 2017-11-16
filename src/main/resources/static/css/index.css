@@ -15,14 +15,18 @@ ul span {
 main {
     padding-left: 120px;
 }
-#header {
+#header{
     padding: 10px 0px;
 }
 #header .btn {
     background-color: #1d2d2b33;
 }
 .search-btn input {
-    border-radius: 10px;
+    border-radius: 10px !important;
+    background-color: snow !important;
+}
+#file label {
+    color: inherit;
 }
 
 
